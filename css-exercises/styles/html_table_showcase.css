@@ -1,0 +1,77 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #f3f6f9;
+    color: #222;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #2f4f4f;
+    color: white;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 8px;
+}
+
+/* Section */
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h2 {
+    color: #2f4f4f;
+    margin-bottom: 10px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;                  /*  Expands table to container width */
+    border-collapse: collapse;    /*  Removes spacing between cells */
+    margin-bottom: 20px;
+}
+
+caption {
+    caption-side: top;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+th, td {
+    padding: 10px;                /*  Adds breathing room in cells */
+    border: 1px solid #ccc;       /*  Applies border to all cells */
+    text-align: left;
+}
+
+th {
+    background-color: #e0e0e0;    /*  Distinct header background */
+}
+
+tr:hover {
+    background-color: #f0f8ff;    /*  Highlight row on hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 30px;
+}

@@ -1,0 +1,89 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #5c6bc0;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 8px;
+}
+
+/* Quiz Form */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Question Sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Question Headings */
+h2 {
+    color: #5c6bc0;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Radio Buttons */
+input[type="radio"] {
+    margin-right: 8px;           /*  Adds space between radio and label */
+    accent-color: #5c6bc0;       /*  Changes color of the radio button */
+}
+
+/* Labels */
+label {
+    display: flex;              /* Aligns radio + text */
+    align-items: center;
+    gap: 10px;                  /* Space between radio and text */
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+
+/* Submit Button */
+input[type="submit"] {
+    background-color: #5c6bc0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #3949ab;   /*  Slightly darker on hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 30px;
+}

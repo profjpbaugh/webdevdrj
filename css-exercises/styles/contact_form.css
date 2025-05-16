@@ -1,0 +1,76 @@
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #eef1f5;
+    color: #222;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+/* Form Section */
+form section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;               /*  Makes each label take a full line */
+    margin-top: 10px;             /*  Adds spacing between form fields */
+    font-weight: bold;            /*  Emphasizes field names */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;                  /*  Makes fields span full width */
+    padding: 10px;                /*  Inner spacing */
+    margin-top: 5px;              /*  Slight gap after label */
+    margin-bottom: 15px;          /*  Space between inputs */
+    border: 1px solid #ccc;       /*  Light border */
+    border-radius: 4px;           /*  Rounded corners */
+    font-size: 1em;               /*  Uniform input text size */
+}
+
+input[type="submit"] {
+    background-color: #003366;   /*  Matches header */
+    color: white;                /*  Light text */
+    border: none;                /*  Removes default button border */
+    padding: 10px 20px;          /*  Size of button */
+    border-radius: 4px;          /*  Rounded button */
+    cursor: pointer;             /*  Shows pointer on hover */
+    font-size: 1em;              /*  Matches input font size */
+}
+
+input[type="submit"]:hover {
+    background-color: #0055aa;   /*  Slight color shift on hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 30px;
+}

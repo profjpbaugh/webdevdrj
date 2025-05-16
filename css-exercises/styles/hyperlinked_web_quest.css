@@ -1,0 +1,73 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Calibri, sans-serif;
+    background-color: #f0f8ff;
+    color: #222;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #4682b4;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 8px;
+}
+
+/* Section */
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4682b4;
+    margin-bottom: 10px;
+}
+
+/* List Styling */
+ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Link Styling */
+a {
+    color: #1a0dab;                  /*  Google-style link blue */
+    text-decoration: none;          /*  Removes underline */
+    font-weight: bold;              /*  Emphasizes links */
+    transition: color 0.3s ease;    /*  Smooth hover effect */
+}
+
+a:hover {
+    color: #ff6600;                  /*  Highlight with orange on hover */
+    text-decoration: underline;     /*  Add underline back on hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 30px;
+}

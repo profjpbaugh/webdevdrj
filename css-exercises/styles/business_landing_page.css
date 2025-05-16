@@ -1,0 +1,81 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fffdf9;
+    color: #222;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #6f4e37; /* Coffee-brown */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.2em;
+    margin-bottom: 5px;
+}
+
+/* Section Blocks */
+section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.08);
+}
+
+h2 {
+    color: #6f4e37;
+    margin-bottom: 10px;
+}
+
+/* Menu List */
+ul {
+    list-style-type: none;     /* No bullets for a clean menu */
+    padding-left: 0;           /* Remove default indentation */
+}
+
+li {
+    padding: 5px 0;            /* Adds spacing between items */
+    font-weight: bold;         /* Highlights item names */
+}
+
+/* Contact Links */
+a[href^="mailto"] {
+    color: #6f4e37;            /* Coffee-colored email links */
+    text-decoration: none;     /* Clean look */
+}
+
+a[href^="mailto"]:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #6f4e37;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

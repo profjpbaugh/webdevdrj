@@ -1,0 +1,64 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f7fcff;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #4b79a1;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 8px;
+}
+
+/* Section */
+section {
+    padding: 10px;
+}
+
+/* Gallery Layout */
+figure {
+    display: inline-block;        /* Allows horizontal wrapping layout */
+    width: 300px;
+    margin: 10px;
+    background-color: white;      /* Adds card background */
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);  /* Card shadow */
+    text-align: center;           /* Center image and caption */
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+figcaption {
+    padding: 10px;
+    font-size: 1em;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 30px;
+}
