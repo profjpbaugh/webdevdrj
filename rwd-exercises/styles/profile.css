@@ -1,0 +1,95 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Typography */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header Styling */
+header {
+  background-color: #007acc;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+/* Profile Section */
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Image */
+.profile img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  align-self: center;
+}
+
+/* Details Content */
+.details h2 {
+  color: #007acc;
+  margin-bottom: 10px;
+}
+
+.details h3 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.details ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.details li {
+  margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 30px;
+}
+
+/* Responsive Layout */
+@media (min-width: 768px) {
+  .profile {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .profile img {
+    flex-shrink: 0;
+    margin-right: 20px;
+  }
+
+  .details {
+    flex-grow: 1;
+  }
+}
