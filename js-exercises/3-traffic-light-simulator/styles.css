@@ -1,0 +1,20 @@
+.light {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: gray;
+  margin: 20px auto;
+  transition: background-color 0.5s ease;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: gold;
+}
+
+.green {
+  background-color: green;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz Checker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Quiz Checker</h1>
+    <p>Select the correct answer and click "Check Answer".</p>
+  </header>
+
+  <main>
+    <section>
+      <p>What is the capital of France?</p>
+      <form id="quizForm">
+        <label><input type="radio" name="capital" value="Paris"> Paris</label><br>
+        <label><input type="radio" name="capital" value="London"> London</label><br>
+        <label><input type="radio" name="capital" value="Rome"> Rome</label><br>
+        <label><input type="radio" name="capital" value="Berlin"> Berlin</label><br><br>
+        <button type="submit">Check Answer</button>
+      </form>
+      <p id="quizResult"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Quiz Checker Demo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

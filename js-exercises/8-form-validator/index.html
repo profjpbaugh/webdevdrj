@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Validator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Form Validator</h1>
+    <p>All fields must be filled out before submitting.</p>
+  </header>
+
+  <main>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email">
+
+      <label for="message">Message:</label>
+      <textarea id="message" rows="4"></textarea>
+
+      <p id="formStatus"></p>
+
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Form Validator Demo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
